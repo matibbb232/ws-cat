@@ -24,7 +24,7 @@ jobs:
       working-directory: cmd
 
     - name: Build
-      run: make build ./
+      run: make build .
 
     # - name: Test
     #   run: go test -v ./...
